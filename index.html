@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Task Management</title>
+</head>
+
+<body>
+    <h3 class="tag-name">Task management</h3>
+    <div class="container">
+        <div class="inner-content">
+            <h3 class="tag">Todo</h3>
+            <div class="todo">
+                <div class="wrapper-todo-textField">
+                    <textarea rows="4" class="todo-textField" id="textField"></textarea>
+                </div>
+                <div class="wrapper-todo-button">
+                    <button onclick="addNote()">➕Add</button>
+                </div>
+                <div class="main-container" id="todo-main-container">
+                    <div style="background-color: white; border: none; margin: 0; height: 2px;" class="draggable" draggable="true"></div>
+                </div>
+            </div>
+        </div>
+        <div class="inner-content">
+            <h3 class="tag">In Progress</h3>
+            <div class="progress">
+                <div class="main-container" id="progress-main-container">
+                    <div style="background-color: white; border: none; margin:0; height: 1;" class="draggable" draggable="true" id="progress"><h3 style="text-align: center;">Progress - stickes</h3></div>
+                </div>
+            </div>
+        </div>
+        <div class="inner-content">
+            <h3 class="tag">Completed</h3>
+            <div class="completed">
+                <div class="main-container" id="completed-main-container">
+                    <div style="background-color: white; border: none; margin: 0; height: 1;" class="draggable" draggable="true" id="completed"><h3 style="text-align: center;">Completed - stickes</h3></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

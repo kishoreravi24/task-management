@@ -1,0 +1,70 @@
+.body {
+    margin: 0;
+}
+
+.tag-name {
+    text-align: center;
+    margin-top: 2vmax;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: stretch;
+}
+
+.tag {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    width: 15vmax;
+}
+
+.wrapper-todo-textField {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wrapper-todo-button {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.todo {
+    background-color: white;
+    border: 3px solid black;
+    width: 18vmax;
+    height: 40vmax;
+}
+
+.draggable .emptCol {
+    background-color: white;
+}
+
+.draggable {
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color:lightgoldenrodyellow;
+    border: 3px solid black;
+    width: 17.4vmax;
+    height: 5vmax;
+}
+
+.progress {
+    background-color: white;
+    border: 3px solid black;
+    width: 18vmax;
+    height: 40vmax;
+}
+
+.completed {
+    background-color: white;
+    border: 3px solid black;
+    width: 18vmax;
+    height: 40vmax;
+}
